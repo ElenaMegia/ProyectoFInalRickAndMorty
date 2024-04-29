@@ -1,0 +1,28 @@
+main {
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+img#imagen {
+    width: 250px;
+    height: auto;
+    border: 4px solid #7fff00;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    background-color: #2e2e2e;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
