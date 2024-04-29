@@ -2,8 +2,51 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="icons8-rick-sanchez-192.ico">
+  <link rel="stylesheet" href="global.css">
+  <link rel="stylesheet" href="opinion.css">
+  <script src="opinion.js"></script>
 </head>
 <body>
+
+<header>
+  <div class="logo">
+    <a href="index.html">
+      <img src="logo.png" alt="Logo">
+    </a>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="#">Review</a></li>
+      <li><a href="personaje.html?id=80">Character of the month</a></li>
+    </ul>
+  </nav>
+</header>
+<h1>Write your review to improve the web</h1>
+
+<form id="reviewForm">
+  <label for="name">Nombre:</label>
+  <input type="text" id="name" name="name" required><br><br>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required><br><br>
+
+  <label for="review">Tu Review:</label><br>
+  <textarea id="review" name="review" rows="4" cols="50" required></textarea><br><br>
+
+  <button type="submit">Enviar Review</button>
+</form>
+
+<div id="message" style="display: none;">
+  <p>Gracias por enviar tu review.</p>
+</div>
+
+<footer>
+  <p>&copy; 2024 Elena Megía Cañaveras. Todos los derechos reservados.</p>
+  <img src="icons8-rick-sanchez-192.ico" alt="Rick icon">
+
+</footer>
+
 
 </body>
 </html>
