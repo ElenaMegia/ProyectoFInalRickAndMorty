@@ -1,0 +1,107 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #2e2e2e;
+}
+
+.Inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.Inicio-gif {
+    width: 100%;
+    overflow: hidden;
+}
+
+.Inicio-gif img {
+    width: 100%;
+    display: block;
+}
+.Inicio-gif h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: #fff;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+
+
+
+.serie {
+    background-color: #191919; /* Fondo oscuro */
+    color: #fff; /* Texto blanco */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra */
+    margin-top: 40px;
+}
+
+.serie h2 {
+    font-family: 'Get Schwifty', cursive; /* Fuente estilo Rick and Morty */
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #000; /* Texto negro */
+    text-shadow: 2px 2px #7fff00; /* Sombra de texto */
+    border-bottom: 2px solid #7fff00; /* Borde verde fosforito */
+    padding-bottom: 5px;
+}
+
+.serie p {
+    font-family: 'Roboto', sans-serif; /* Fuente de texto */
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+.personajes {
+    background-color: #2e2e2e;
+    color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    max-height: 400px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.personajes h2 {
+    font-family: 'Get Schwifty', cursive;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #000;
+    text-shadow: 2px 2px #7fff00;
+    border-bottom: 2px solid #7fff00;
+    padding-bottom: 5px;
+}
+
+.personajes ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.personajes li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.personajes li::before {
+    content: url('picklefinal.png');
+    margin-right: 10px;
+}
